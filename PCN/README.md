@@ -59,6 +59,13 @@ sh run.sh picture/crop/video/fddb
 For python interface (only supported in Ubuntu 18.04):
 ```Shell
 sudo apt install libcaffe-cpu-dev
+sudo apt-get install libboost-all-dev
+sudo apt-get install libgflags-dev
+sudo apt-get install libprotobuf-dev protobuf-compiler
+sudo apt-get install libgoogle-glog-dev
+pip3 install opencv-contrib-python
+pip3 install opencv-python
+
 make
 sudo make install
 ```
